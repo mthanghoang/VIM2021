@@ -1,0 +1,81 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage[left=2.00cm, right=2.00cm, top=2.00cm, bottom=2.00cm]{geometry}
+\linespread{1.25}
+\usepackage{setspace}
+\usepackage{indentfirst}
+\setlength{\parindent}{1.25cm}
+\let\paragraph\ignorespaces
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{graphicx}
+
+
+
+\begin{document}
+	
+\begin{titlepage}
+	
+\begin{center}
+	\large Университет ИТМО\\[5cm]
+	\LARGE Практическая работа №1\\
+	\normalsize по дисциплине <<Визуализация и моделирование>>\\[5cm]
+\end{center}
+\begin{flushright}
+		\begin{minipage}{0.6\textwidth}
+		\begin{flushleft}
+			\large
+			\singlespacing 
+			\textbf{Автор:} Хоанг Минь Тханг\\
+			\textbf{Поток:} ВИМ1\\
+			\textbf{Группа:} К3220\\
+			\textbf{Факультет:} ИКТ\\
+			\textbf{Преподаватель:} Чернышева А.В.
+		\end{flushleft}
+	\end{minipage}
+\end{flushright}
+
+\vfill
+
+\begin{center}
+	{\large Санкт-Петербург, \the\year{ г.}}
+\end{center}
+ 
+\end{titlepage}
+\normalsize
+
+Описание: Датасет Airline Safety содержит информацию об авариях от каждой авиакомпании.
+
+\begin{center}
+    \resizebox{\columnwidth}{!}{\begin{tabular}{||l|l|l||}
+    \hline
+    Название столбца в датасете & Определение & Тип данных\\
+    \hline
+    airline & Название авиакомпании & Текст\\
+    avail\_seat\_km\_per\_week & Кресло-километр каждую неделю & Целое число\\
+    incidents\_85\_99 & Итоговое количество инцидентов 1985-1999 & Целое число\\
+    fatal\_accidents\_85\_99 & Итоговое количесто инцидентов со смертельным исходом 1985-1999 & Целое число\\
+    fatalities\_85\_99 & Итоговое количество погибщих 1985-1999 & Целое число\\
+    incidents\_00\_14 & Итоговое количество инцидентов 2000-2014 & Целое число\\
+    fatal\_accidents\_00\_14 & Итоговое количесто инцидентов со смертельным исходом 2000-2014 & Целое число\\
+    fatalities\_00\_14 & Итоговое количество погибщих 2000-2014 & Целое число\\
+    \hline
+    \end{tabular}}
+    
+Задача решать в этом датасете: определение безопасности каждой авиакомпании 
+\end{center}
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
